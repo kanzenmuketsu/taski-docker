@@ -129,7 +129,7 @@ jobs:
   send_messege:
     runs-on: ubuntu-latest
     needs:
-      - build_and_push_to_docker_hub
+      - build-and-push-to-dockerhub
       - build-and-push-to-dockerhub-front
       - build_gateway_and_push_to_docker_hub
     steps:
