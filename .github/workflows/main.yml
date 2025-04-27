@@ -69,4 +69,4 @@ jobs:
       with:
         context: ./backend/
         push: true
-        tags: kanzenmuketsu:taski_backend:latest 
+        tags: kanzenmuketsu/taski_backend:latest 
