@@ -92,7 +92,7 @@ jobs:
     needs: frontend_tests
     steps:
     - name: Check out
-      uses: action/checkout@v4
+      uses: action/checkout@v3
     - name: Set up Docker build
       uses: docker/setup-buildx-action@v3
     - name: Login to Docker
