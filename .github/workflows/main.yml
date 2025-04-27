@@ -106,7 +106,7 @@ jobs:
         context: './frontend/'
         push: true
         tags: kanzenmuketsu/taski_frontend:latest
-  build-gateway-and-push-to-dockerhub:
+  build-gateway-and-push:
     name: Push Nginx image to Docker
     runs-on: ubuntu-latest
     steps:
